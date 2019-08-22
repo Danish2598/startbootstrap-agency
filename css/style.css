@@ -1,0 +1,408 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: 'Roboto Slab';
+    }
+    section {
+        margin: auto 3.5em;
+    }
+    .welcome {
+        background-image: url('../images/header-bg.jpg');
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .welcome-note {
+        padding-top: 10em;
+    }
+    header {
+        padding: 2em 2em 0 2em;
+    }
+    .logo {
+        float: left;
+        width: 35%;
+    }
+    .logotext {
+        color: #fed136;
+        font-family: 'Kaushan Script';
+        font-size: 2.1em;
+    }
+    .menu {
+        float: right;
+        width: 65%;
+        text-align: right;
+    }
+    header li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 1em;
+    }
+    header ul a {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: .9em;
+        color: #ffffff;
+    }
+    header ul a:hover {
+        color: #fed136;
+    }
+    .welcome-note span {
+        display: block;
+    }
+    .welcome-note {
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+    }
+    .welcome-text {
+        font-family: "Droid Serif";
+        font-style: italic;
+        font-size: 3.5em;
+        color: #ffffff;
+        font-weight: 400;
+        margin-bottom: 0.5em;
+    }
+    .tagline {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 4.5em;
+        margin-bottom: 0.5em;
+    }
+    .tellmore {
+        background-color: #fed136;
+        padding: 1em 2em;
+        color: #ffffff;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.1em;
+        border-radius: 2px;
+    }
+    .tellmore:hover {
+        background-color: #fec810;
+    }
+    .space {
+        padding: 80px 0;
+    }
+    .service {
+        text-align: center;
+    }
+    .main-titles {
+        text-align: center;
+        padding: 3em 0;
+    }
+    .main-titles span {
+        display: block;
+    }
+    .sub-services {
+        padding: 1em 0;
+    }
+    .tittle {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 2.1em;
+        color: #212529;
+    }
+    .tittle-des {
+        font-family: "Droid Serif";
+        color: #6c757d;
+        font-style: italic;
+        font-weight: 400;
+        padding: 20px 0;
+    }
+    .singal-services {
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+    .icon {}
+    .service-name {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #212529;
+    }
+    .service-description {
+        font-family: 'Roboto Slab';
+        font-size: 1em;
+        color: #6c757d;
+        font-weight: 400;
+        padding: 0px 8%;
+        text-align: center;
+    }
+    .singal-services i {
+        background: #fed136;
+        padding: 15px;
+        font-size: 85px;
+        color: #ffffff;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+    .ssingal-services span {
+        background: #fed136;
+        border-radius: 20px;
+    }
+    .portfolio {
+        background-color: #f8f9fa!important;
+    }
+    .portfolio-items {
+        float: left;
+        width: 30%;
+        margin: 1%;
+        background: #ffffff;
+        text-align: center;
+    }
+    .portfolio-items span {
+        display: block;
+    }
+    .portfolio-items img {
+        width: 100%;
+    }
+    .portfolio-items img:hover {
+        color: rgba(254, 209, 54, .9);
+    }
+    .team {
+        background-color: #f8f9fa!important;
+    }
+    .team-name {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #212529;
+    }
+    .team span {
+        display: block;
+        text-align: center;
+    }
+    .team-box {
+        width: 33%;
+        text-align: center;
+        float: left;
+    }
+    .team-box img {
+        width: 60%;
+        border: 7px solid rgba(0, 0, 0, .1);
+        border-radius: 100%;
+    }
+    .team-box i {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        background: #000000;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 100%;
+        margin: 3% 1%;
+    }
+    .team-box i:hover {
+        background-color: #fed136;
+    }
+    .client-sec {
+        padding: 2% 0;
+        text-align: center;
+    }
+    .client {
+        float: left;
+        width: 25%;
+    }
+    .contact-us {
+        background-image: url("../images/map-image.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #212529;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    .conatc-half {
+        float: left;
+        width: 50%;
+    }
+    .text-fields {
+        padding-left: 5%;
+    }
+    .conatc-half input {
+        width: 85%;
+        border: none;
+        border-radius: 4px;
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #495057;
+        background-color: #ffffff;
+        margin-bottom: 30px;
+    }
+    .conatc-half textarea {
+        width: 80%;
+        border: none;
+        border-radius: 4px;
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #495057;
+        background-color: #ffffff;
+        margin-bottom: 30px;
+    }
+    .sendmesage {
+        background-color: #fed136;
+        padding: 1em 2em;
+        color: #ffffff;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.1em;
+        border-radius: 3px;
+        margin-top: 20px;
+    }
+    .sendmesage:hover {
+        background-color: #fec810;
+    }
+    footer {
+        padding: 1% 0;
+    }
+    .copyright {
+        font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        font-weight: 400;
+        font-size: .9em;
+    }
+    .footer-content {
+        width: 33%;
+        float: left;
+        padding: 2% 0;
+    }
+    .footer-link {
+        color: #fed136;
+        font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    .footer-link:hover {
+        color: #fec503;
+        text-decoration: underline;
+    }
+    .footer-content i {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        background: #000000;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 100%;
+        margin: 0 1%;
+    }
+    .footer-content i:hover {
+        background-color: #fed136;
+    }
+    .about-yealy {
+        text-align: center;
+        margin: 0 2em;
+        padding: 5em 0;
+    }
+    .data-about {
+        width: 40%;
+        float: left;
+    }
+    .data-about img {
+        width: 80%;
+        border: 7px solid rgba(0, 0, 0, .1);
+        border-radius: 100%;
+    }
+    .first span {
+        display: block;
+    }
+    .first {
+        text-align: right;
+    }
+    .about-title {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #212529;
+    }
+    .about-des {
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 400;
+        font-size: 1em;
+        color: #6c757d;
+    }
+    .about-sec {
+        border-left: 2px solid red;
+    }
+    /*Responive section*/
+    
+    @media (min-width: 1025px) {
+        .mob-menu {
+            display: none;
+        }
+    }
+    @media (max-width: 1025px) {
+        .responsive {
+            display: none;
+        }
+        .menu {
+            width: 30%;
+        }
+        .logo {
+            width: 50%;
+        }
+        .burger-menu span {
+            color: #ffffff;
+            font-size: .75em;
+            font-family: Montserrat;
+            background: #fed136;
+            padding: .7em;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .singal-services {
+            width: 100%;
+        }
+        .portfolio-items {
+            width: 45%;
+        }
+    }
+    @media (max-width: 800px) and (min-width: 400px) {
+        .welcome-note {
+            padding-top: 7em;
+        }
+        .welcome-text {
+            font-size: 2.5em;
+        }
+        .tagline {
+            font-size: 4rem;
+        }
+        .team-box {
+            width: 100%;
+        }
+        .client {
+            width: 100%;
+        }
+        .conatc-half {
+            width: 100%;
+        }
+        .footer-content {
+            width: 100%;
+        }
+    }
+    @media (max-width: 400px) {
+        .welcome-note {
+            padding-top: 5em;
+        }
+        .welcome-text {
+            font-size: 1.5em;
+        }
+        .tagline {
+            font-size: 3rem;
+        }
+        section {
+            margin: auto 0.5em;
+        }
+        .portfolio-items {
+            width: 97%;
+        }
+        .logo {
+            width: 55%;
+        }
+    }
